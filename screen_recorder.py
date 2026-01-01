@@ -1,3 +1,6 @@
+#pip install numpy
+#pip install opencv-python
+#pip install pyautogui
 import numpy as np
 import cv2
 import pyautogui
@@ -19,3 +22,4 @@ while True:
         break
 output.release()
 cv2.destroyAllWindows()
+
